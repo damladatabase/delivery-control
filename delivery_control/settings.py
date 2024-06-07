@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import os.path
 from pathlib import Path
-
+import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATABASE_URL = "postgresql://postgres:sNfTrTPlBAnaWGJXBlSCaWygNvGtvBWp@viaduct.proxy.rlwy.net:39349/railway"
+DATABASE_URL = "postgres://damla_user:uJzTYv8h57scaIol0xMZRatrmh8SChSe@dpg-cph8mi8cmk4c73ecovrg-a.oregon-postgres.render.com/damla"
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
